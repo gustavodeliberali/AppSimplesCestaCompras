@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "orgs-cesta",
+    "name": "Orgs",
     "slug": "orgs-cesta",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +18,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "11.4"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.dan_carlos"
     },
     "web": {
       "favicon": "./assets/favicon.png"
